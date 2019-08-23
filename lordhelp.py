@@ -33,24 +33,27 @@
 
 # 1. Example of formatting sting
 
-# greeting=("Hello" )
-# my_Name=("Survivor")
-# my_Age=(100)
+greeting=("Hello" ) # you don't need () to define a vraiable
+my_Name=("Survivor")
+my_Age=(100)
 
 # ("String concatenation format")
-#
-# "greeting-text='Howdy + '+ 'hello + survivor '+ 100 + today "!!!
-#
-# ("f format phython")
-#
-# ({greeting-text}f'{Howdy} {Hello} {Survivor} {100} {my_Age} {today})'!!!)
 
+# "greeting-text='Howdy + '+ 'hello + survivor '+ 100 + today "!!!
+# NOTE : incorrect syntax to define a variable AND incorrect syntax for concatenation
+
+# ("f format phython")
+
+# ({greeting-text}f'{Howdy} {Hello} {Survivor} {100} {my_Age} {today})'!!!)
+# NOTE : incorrect syntax to define a variable AND incorrect syntax for string templating 
 # 2.
 secretpw= input("Enter your guess")
 userInput=input("Enter the secretpw")
 while (secretpw !=userInput):
+	# this is redundant
  if secretpw!= userInput :
     print('Incorrect.Try again')
-
+# NOTE : indentation matters
 else:
     print("Correct")
+# NOTE : you have NO way to break out of this loop    
